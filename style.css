@@ -1,0 +1,57 @@
+/*layout of the page*/
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+}
+
+/*Main title*/
+h1 {
+  margin-bottom: 10px;
+}
+
+/*container for the buttons*/
+.buttons {
+  margin: 20px 0;
+}
+
+/*Buttons*/
+button {
+  padding: 10px 20px;
+  margin: 8px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4a90e2;
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #357ac9;
+}
+
+/*image area*/
+.animal {
+  margin-top: 20px;
+}
+
+/*Animal images*/
+.animal img {
+  width: 250px;
+  height: auto;
+  margin: 15px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  display: none; /* JS will toggle this */
+}
+
+/*styling for the counter*/
+#counter {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
