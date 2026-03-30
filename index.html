@@ -1,1 +1,29 @@
+<!DOCTYPE html>
 
+<html>
+ 
+  /*displaying title*/
+<h1>Welcome to the Interactive Reveal: What’s That Animal?</h1>
+<p>Click on the buttons below to reveal the animal images</p>
+
+  /*defining the buttons*/
+<div class="buttons">
+  <button onclick="toggleAnimal('cat')">Reveal a CAT</button>
+  <button onclick="toggleAnimal('dog')">Reveal a DOG</button>
+  <button onclick="toggleAnimal('cow')">Reveal a COW</button>
+  <button onclick="resetZoo()">Reset Zoo</button>
+</div>
+
+  /*displaying images*/
+<div class="zoo">
+  <img id="cat" src="cat.jpg" alt="Cat" style="display:none;">
+  <img id="dog" src="dog.jpg" alt="Dog" style="display:none;">
+  <img id="cow" src="cow.jpg" alt="Cow" style="display:none;">
+</div>
+
+  /*displays the counter*/
+<h3 id="counter">Animals on Screen: 0</h3>
+
+</body>
+
+</html>
